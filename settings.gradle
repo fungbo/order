@@ -1,6 +1,11 @@
 pluginManagement {
-	repositories {
-		gradlePluginPortal()
-	}
+    repositories {
+        gradlePluginPortal()
+    }
 }
-rootProject.name = 'demo'
+rootProject.name = 'order'
+
+include 'representation'
+include 'application'
+include 'domain'
+include 'infrastructure'
